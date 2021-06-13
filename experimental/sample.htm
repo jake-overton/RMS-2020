@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+<head>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    tr {border:solid black 2pt;}
+    td {width:33%;}
+  </style>    
+</head>
+
 <body>
 
 <div class="w3-container">
@@ -21,6 +29,35 @@
 </div>
 
 </div>
+
+<div class="w3-container" style="max-width:800px">
+  <h2>Colored Table Heading</h2>
+  <p>In order to not have to put the style in each row, modify the <b>tr</b> and <b>td</b> in css</p>
+
+  <table class="w3-table w3-yellow w3-card-4">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+
 
 </body>
 </html>
