@@ -53,8 +53,8 @@
   <div> 
     <p><b><a href="#six">Services and Discount Information</a></b></p>
   </div>
-  <div class="w3-panel" id="layer1"> <a href="">
-    <map name="USMap">
+  <div class="w3-panel w3-border" id="layer1"> <a href="">
+    <!-- <map name="USMap">
       <area
         shape="Rect" coords="578, 297, 657, 317" href="#five"
         title="Tier 5 (2 states and territories), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party"
@@ -128,8 +128,83 @@
         shape="Rect" coords="577, 209, 656, 229" href="#one"
         title="Tier 1 Atlanta, Administrative Fee $125.00 per party, 2 Parties-$150.00 per party, 3 Parties-$135.00per party, 4 or more parties-$120.00 per party "
         alt="Tier 1 Atlanta, Administrative Fee $125.00 per party, 2 Parties-$150.00 per party, 3 Parties-$135.00per party, 4 or more parties-$120.00 per party ">
+    </map> -->
+
+    <!-- New map using svg. Coords came from www.image-map.net 
+      -- coordinates are tied to an image 700px wide -->
+    <map name="USMap">
+        <area shape="poly" 
+          alt="Tier 2 (6 states), 2 Parties-$1,250.00 per party, 3 Parties-$1,125.00 per party, 4 or more parties-$1,000.00 per party" 
+          title="Tier 2 (6 states), 2 Parties-$1,250.00 per party, 3 Parties-$1,125.00 per party, 4 or more parties-$1,000.00 per party" 
+          href="#two" 
+          coords="440,241,493,232,560,221,606,205,617,224,593,253,581,260,574,274,561,292,557,313,576,343,590,385,587,394,577,397,546,359,544,343,522,330,510,339,466,335,460,264,432,266"
+          >
+        <area shape="poly" 
+          alt="Tier 3 (23 states, Dallas, Houston, San Antonio, and Washington, DC), 2 Parties-$1,450.00 per party, 3 Parties-$1,250.00 per party, 4 or more parties-$1,050.00 per party" 
+          title="Tier 3 (23 states, Dallas, Houston, San Antonio, and Washington, DC), 2 Parties-$1,450.00 per party, 3 Parties-$1,250.00 per party, 4 or more parties-$1,050.00 per party" 
+          href="#three" 
+          coords="664,44,638,72,637,92,651,104,636,114,633,125,613,139,609,164,603,194,607,206,549,222,440,242,435,266,460,262,462,311,466,333,458,356,434,359,413,353,393,352,371,368,349,382,342,396,349,413,336,413,323,405,301,373,293,357,277,353,265,365,252,359,241,341,218,316,266,320,270,242,282,242,282,178,259,177,261,146,324,146,330,151,336,148,350,156,348,138,345,101,337,53,357,51,357,44,364,54,416,61,437,67,480,83,490,92,500,114,508,130,500,148,513,149,546,118,544,114,554,108,567,103,570,91,578,74,616,60,620,55,624,16,641,13,648,34"
+          >
+        <area shape="poly"
+          alt="Tier 4 (18 states), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          title="Tier 4 (18 states), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          href="#four" 
+          coords="55,24,79,22,175,44,267,54,339,54,351,153,333,149,324,146,260,146,259,176,282,179,282,243,273,242,267,321,218,317,220,322,200,320,199,328,162,323,111,296,80,291,68,267,45,250,32,214,23,175,19,147,30,129,28,115,34,99,43,84,51,56" 
+          >
+        <area shape="poly"
+          alt="Tier 5 (2 states and territories), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          title="Tier 5 (2 states and territories), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          href="#five" 
+          coords="47,348,36,391,21,423,137,416,91,347,66,340"
+          >
+        <area shape="poly" 
+          alt="Tier 5" 
+          title="Tier 5 (2 states and territories), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          href="#five" 
+          coords="164,366,218,400,226,414,237,404,219,384,189,371,170,360"
+          >
+        <area shape="poly" 
+          alt="Tier 5 (2 states and territories), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          title="Tier 5 (2 states and territories), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          href="#five" 
+          coords="434,399,434,413,520,415,512,390"
+          >
+
+        <!-- Legend rectangles -->
+        
+        <area shape="rect" 
+          alt="Tier 1 Atlanta, Administrative Fee $125.00 per party, 2 Parties-$150.00 per party, 3 Parties-$135.00per party, 4 or more parties-$120.00 per party" 
+          title="Tier 1 Atlanta, Administrative Fee $125.00 per party, 2 Parties-$150.00 per party, 3 Parties-$135.00per party, 4 or more parties-$120.00 per party" 
+          href="#one" 
+          coords="678,242,629,229"
+          >
+        <area shape="rect" 
+          alt="Tier 2 (6 states), 2 Parties-$1,250.00 per party, 3 Parties-$1,125.00 per party, 4 or more parties-$1,000.00 per party" 
+          title="Tier 2 (6 states), 2 Parties-$1,250.00 per party, 3 Parties-$1,125.00 per party, 4 or more parties-$1,000.00 per party" 
+          href="#tier2" 
+          coords="629,251,679,267"
+          >
+        <area shape="rect" 
+          alt="Tier 3 (23 states, Dallas, Houston, San Antonio, and Washington, DC), 2 Parties-$1,450.00 per party, 3 Parties-$1,250.00 per party, 4 or more parties-$1,050.00 per party" 
+          title="Tier 3 (23 states, Dallas, Houston, San Antonio, and Washington, DC), 2 Parties-$1,450.00 per party, 3 Parties-$1,250.00 per party, 4 or more parties-$1,050.00 per party" 
+          href="#tier3" 
+          coords="629,275,678,289"
+          >
+        <area shape="rect" 
+          alt="Tier 4 (18 states), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          title="Tier 4 (18 states), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          href="#four" 
+          coords="629,299,678,314"
+          >
+        <area 
+          alt="Tier 5" 
+          title="Tier 5 (2 states and territories), 2 Parties-$2,500.00 per party, 3 Parties-$2,250.00 per party, 4 or more parties-$2,000.00 per party" 
+          href="#five" coords="629,322,679,337" 
+          shape="rect"
+          >
     </map>
-    <img border="0" width="699" height="414" id="_x0000_i1025" src="map2.jpg" alt="Map2" usemap="#USMap" name="us_map" align="absmiddle"></a><a href=""></a>
+
+    <img width="700" id="_x0000_i1025" src="../../images/us.svg" alt="Map2" usemap="#USMap" name="us_map"></a><a href=""></a>
   </div>
   <p>&nbsp;</p>
 
