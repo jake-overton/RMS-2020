@@ -18,3 +18,4 @@
 /* Custom theme values */
 .w3-all-bars {border: 6px solid !important}
 .w3-border-theme {border-color:#3f51b5 !important}
+.w3-hover-theme:hover {color:#000 !important;background-color:#c5cae9 !important}
