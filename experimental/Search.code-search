@@ -1,0 +1,24 @@
+# Query: 
+# ContextLines: 1
+
+**** Reformat JSON list
+
+</p>\n\s{8}<p>
+",\n        "
+
+
+**** Remove hard breaks from testimonial
+
+\n\s{8}
+_
+
+
+**** Replace extra space before non-break (adjust for incorrect order)
+
+ &nbsp; 
+&nbsp; 
+
+
+**** Replace spaces between words
+
+(\w)\s(\w)
